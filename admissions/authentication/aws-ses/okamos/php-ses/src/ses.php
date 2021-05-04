@@ -47,8 +47,8 @@ class SimpleEmailService
     public function __construct($region = 'us-east-1')
 
     {
-        $this->_aws_key = 'AKIA2S3TW5FS7CXU6A5W';
-        $this->_aws_secret = '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';
+        $this->_aws_key = '***********';
+        $this->_aws_secret = '**********';
         $this->_region = $region;
 
         $this->_host = self::SERVICE . '.' . $this->_region . '.' . self::DOMAIN;
