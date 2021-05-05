@@ -42,8 +42,12 @@ if($post)
 				$mail->SMTPSecure = "ssl"; 
 				$mail->Host       = "smtp.gmail.com";      
 				$mail->Port       = 465;                  
+<<<<<<< HEAD
 				$mail->Username   = "tentudileepkumar@msitprogram.net";
 				$mail->Password   = "TDKUMAR@350";           
+=======
+				        
+>>>>>>> 55f3c8b29122d9526de5a25e455b3ea7121e4be1
 				$mail->SMTPKeepAlive = true;
 				$mail->Timeout =100000000;
 				$mail->From       = "msitadmissions@gmail.com"; 
