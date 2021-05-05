@@ -52,9 +52,9 @@ $file=$extension.".pdf";
 
 			$mail->Port       = 465;                  
 
-			$mail->Username   = "admissions@msitprogram.net";
+			$mail->Username   = "tentudileepkumar@msitprogram.net";
 
-			$mail->Password   = "change@2020";           
+			$mail->Password   = "TDKUMAR@350";           
 
 			$mail->SMTPKeepAlive = true;
 

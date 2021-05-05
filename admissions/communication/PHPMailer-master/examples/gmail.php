@@ -40,16 +40,16 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "*******";
+$mail->Username = "tentudileepkumar@msitprogram.net";
 
 //Password to use for SMTP authentication
-$mail->Password = "*******";
+$mail->Password = "TDKUMAR@350";
 
 //Set who the message is to be sent from
-$mail->setFrom('admissions@msitprogram.net', 'First Last');
+$mail->setFrom('tentudileepkumar@msitprogram.net', 'First Last');
 
 //Set an alternative reply-to address
-$mail->addReplyTo('admissions@msitprogram.net', 'First Last');
+$mail->addReplyTo('tentudileepkumar@msitprogram.net', 'First Last');
 
 //Set who the message is to be sent to
 $mail->addAddress('seshhu143@gmail.com', 'Seshu');

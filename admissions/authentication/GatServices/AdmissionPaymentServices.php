@@ -313,8 +313,8 @@ else  if (array_key_exists('payment_submission', $_POST))
                               $mail->SMTPSecure = "ssl"; 
                               $mail->Host       = gethostbyname("smtp.gmail.com"); //"smtp.gmail.com";      
                               $mail->Port       = 465;                  
-                              $mail->Username   = "*******";
-                              $mail->Password   = "*******";           
+                              $mail->Username   = "tentudileepkumar@msitprogram.net";
+                              $mail->Password   = "TDKUMAR@350";           
                               $mail->SMTPKeepAlive = true;
                               $mail->Timeout =100000000;
                               $mail->From       = "msitadmissions@gmail.com"; 
