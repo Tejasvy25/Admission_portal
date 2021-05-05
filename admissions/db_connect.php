@@ -15,14 +15,7 @@ if (!$con) {
     exit;
 }
 
-/*$cfg_dbhost = '45.79.134.238';
-$cfg_database = 'msitprog_admissions';
-$cfg_dbuser = 'msitprogram';
-$cfg_dbpassword = 'v3NXLXC5YjFPjmH7';
-$con = mysql_connect($cfg_dbhost,$cfg_dbuser,$cfg_dbpassword);
-$db = mysql_select_db($cfg_database,$con);
 
-*/
 
 
 
